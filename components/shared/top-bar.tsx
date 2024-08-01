@@ -11,6 +11,7 @@ export const TopBar: React.FC<Props> = ({ className }) => {
     <div className="sticky top-0 bg-white pb-5 shadow-lg shadow-black/5">
         <Container className="flex items-center justify-between ">
           This is stiky bar
+          <Categories/>
         </Container>
       </div>
   );

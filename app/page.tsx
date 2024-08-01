@@ -5,9 +5,10 @@ import { TopBar } from "@/components/shared/top-bar";
 export default function Home() {
   return (
     <>
-      <Container className="flex items-center justify-between py-8">
+      <Container className="flex items-center justify-between pt-8 pb-5">
           <Title text="Все пиццы" size="lg" className="font-extrabold" />
       </Container>
+      
       <TopBar/>
     </>
   );
