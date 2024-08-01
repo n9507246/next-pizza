@@ -1,11 +1,11 @@
-import { Button } from "@/components/ui/button";
-import Image from "next/image";
+import { Container } from "@/components/shared/container";
 
 export default function Home() {
   return (
     <>
-      <h1>Home</h1>
-      <Button variant={"outline"}>asdas</Button>
+      <Container className="flex items-center justify-between py-8">
+        <h1>Home</h1> 
+      </Container>
     </>
   );
 }
